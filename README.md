@@ -9,5 +9,10 @@ Aprender sobre la decodificación de entornos virtuales en python para windows
 - Paso4: Entrar a la carpeta donde se creó el repositorio y digitar el comando **virtualenv -p python3 myenv** este crea el entorno virtual 
 
 ------
------
 **"Listo ya tienes tu entorno virtual, espero que te haya servido"**
+---
+
+
+### Ahora para activarlo 
+Nos adentramos al archivo con activate de la siguiente manera 
+.\myenv\Scripts\activate
