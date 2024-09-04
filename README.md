@@ -10,13 +10,21 @@ Aprender sobre la decodificación de entornos virtuales en python para windows
 
 
 
-### Ahora para activarlo 
+### *Ahora para activarlo 
 Nos adentramos al archivo con activate de la siguiente manera 
 **.\myenv\Scripts\activate**
 
-### Ahora para desactivarlo
+### *requirements.txt 
+Si quieres mantener un estandar en la descarga de paquetes de un entorno encontes ejecutar mientras está activado el siguiente comando 
+**pip freeze > requirements.txt**
+
+### *Ahora para desactivarlo
 Utilizamos el siguiente comando en la terminal 
 **deactivate** 
+
+### *Usando Otro entorno
+Bueno para usar los mismo paquetes solo hay que copiar la carpeta Scripts y el texto requirements.txt y activar el entorno nuevo posterior a ello darle al siguiente comando 
+**pip install -r .\requirements.txt**
 
 ------
 **"Listo ya tienes tu entorno virtual, espero que te haya servido"**
